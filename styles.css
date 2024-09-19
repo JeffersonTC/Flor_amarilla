@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #ff4;
+    display: grid;
+    place-items: center;
+}
+
+.flower{
+    width: 50px;
+    height: 50px;
+    animation: giro 4s linear infinite;
+}
+
+.leaf{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 2px 50px;
+    background-color: #fff;
+    opacity: 0.8;
+    box-shadow: -5px -5px 2px rgb(0, 0, 0, 0.051);
+
+}
+.dot{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(16, 141, 16);
+    animation: dot 4s ease-in-out infinite;
+}
+
+.leaf_0{
+    transform: rotate(0deg) translate(-35px, -35px) scale(2);
+}
+.leaf_1{
+    transform: rotate(22.5deg) translate(-35px, -35px) scale(2);
+}
+.leaf_2{
+    transform: rotate(45deg) translate(-35px, -35px) scale(2);
+}
+.leaf_3{
+    transform: rotate(67.5deg) translate(-35px, -35px) scale(2);
+}
+.leaf_4{
+    transform: rotate(90deg) translate(-35px, -35px) scale(2);
+}
+.leaf_5{
+    transform: rotate(112.5deg) translate(-35px, -35px) scale(2);
+}
+.leaf_6{
+    transform: rotate(135deg) translate(-35px, -35px) scale(2);
+}
+.leaf_7{
+    transform: rotate(157deg) translate(-35px, -35px) scale(2);
+}
