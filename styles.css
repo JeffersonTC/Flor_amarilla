@@ -62,5 +62,81 @@ body{
     transform: rotate(135deg) translate(-35px, -35px) scale(2);
 }
 .leaf_7{
-    transform: rotate(157deg) translate(-35px, -35px) scale(2);
+    transform: rotate(157.5deg) translate(-35px, -35px) scale(2);
+}          
+.leaf_8{
+    transform: rotate(180deg) translate(-35px, -35px) scale(2);
+}
+.leaf_9{
+    transform: rotate(202.5deg) translate(-35px, -35px) scale(2);
+}
+.leaf_10{
+    transform: rotate(225deg) translate(-35px, -35px) scale(2);
+}
+.leaf_11{
+    transform: rotate(247.5deg) translate(-35px, -35px) scale(2);
+}
+.leaf_12{
+    transform: rotate(270deg) translate(-35px, -35px) scale(2);
+}
+.leaf_13{
+    transform: rotate(292.5deg) translate(-35px, -35px) scale(2);
+}
+.leaf_14{
+    transform: rotate(315deg) translate(-35px, -35px) scale(2);
+}
+.leaf_15{
+    transform: rotate(337.5deg) translate(-35px, -35px) scale(2);
+}
+
+@keyframes giro {
+    0%{
+        transform: scale(0) translate(-35px, -35px);
+    }
+
+    30%{
+        transform: scale(1) rotate(50deg);
+    }
+
+    50%{
+        transform: scale(1) rotate(100deg);
+    }
+      
+    75%{
+        transform: scale(1) rotate(180deg);
+    }
+    
+    100%{
+        transform: scale(0);
+    }
+}
+
+@keyframes dot {
+    0%{
+        transform: scale(0);
+    }
+    15%{
+        transform: scale(0.95);
+    }
+    20%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.2);
+    }
+    30%,55%{
+        transform: scale(1.3);
+    }
+    58%{
+        transform: scale(1.4);
+    }
+    70%{
+        transform: scale(1.4);
+    }
+    85%{
+        transform: scale(0.95);
+    }
+    100%{
+        transform: scale(0);
+    }
 }
